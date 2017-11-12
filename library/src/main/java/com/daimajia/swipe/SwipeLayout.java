@@ -1049,7 +1049,7 @@ public class SwipeLayout extends FrameLayout {
      * Returns the percentage of revealing at which the view below should the view finish opening
      * if it was already open before dragging
      *
-     * @returns The percentage of view revealed to trigger, default value is 0.25
+     * @return The percentage of view revealed to trigger, default value is 0.25
      */
     public float getWillOpenPercentAfterOpen() {
         return mWillOpenPercentAfterOpen;
@@ -1069,7 +1069,7 @@ public class SwipeLayout extends FrameLayout {
      * Returns the percentage of revealing at which the view below should the view finish opening
      * if it was already closed before dragging
      *
-     * @returns The percentage of view revealed to trigger, default value is 0.25
+     * @return The percentage of view revealed to trigger, default value is 0.25
      */
     public float getWillOpenPercentAfterClose() {
         return mWillOpenPercentAfterClose;
